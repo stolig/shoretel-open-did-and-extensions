@@ -115,11 +115,6 @@ def queryShoretel():
     cursor.close()
     cnx.close()
 
-    for row in d1.items():
-
-        myExt = row[0]
-        myDid = row[1]
-
     findDid()
 
 queryShoretel()
